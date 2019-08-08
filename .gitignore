@@ -11,5 +11,6 @@ workspace.xml
 .DS_Store
 venv
 *.model
+dataset
 
 application.sln.DotSettings.user
