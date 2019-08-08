@@ -11,3 +11,5 @@ to run app, execute this command in a  terminal:
 
 `gunicorn app:app`
 
+For more documentation see [TuriCreate](https://apple.github.io/turicreate/docs/userguide/recommender/)
+
