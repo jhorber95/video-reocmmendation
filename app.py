@@ -12,7 +12,7 @@ def recommends():
     return jsonify(list(r))
 
 
-@app.route('/custom-recommend/<:user>')
+@app.route('/custom-recommend/<user>')
 def make_custom_recommend(user):
     r = model.recommend(users=[user])
     return jsonify(list(r))
