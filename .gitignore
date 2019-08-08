@@ -10,5 +10,6 @@ client/dist
 workspace.xml
 .DS_Store
 venv
+*.model
 
 application.sln.DotSettings.user
