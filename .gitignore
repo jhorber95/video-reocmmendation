@@ -1,0 +1,14 @@
+.env
+.settings
+.vs
+node_modules
+deploy
+deploy.zip
+.idea
+client/dist
+.idea/workspace.xml
+workspace.xml
+.DS_Store
+venv
+
+application.sln.DotSettings.user
