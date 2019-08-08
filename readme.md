@@ -1,13 +1,13 @@
 # Readme
 
-descargar el dataset [MovieLens 20M Dataset](http://files.grouplens.org/datasets/movielens/ml-20m.zip) 
-con el nombre de `dataset`
+Download  dataset [MovieLens 20M Dataset](http://files.grouplens.org/datasets/movielens/ml-20m.zip) 
+and set  `dataset` name
 
- - instalar las dependencias:
+ - install all dependencies
  
  `pip install requirements.txt`
 
-para arrancar la applicacion ejecute el comando 
+to run app, execute this command in a  terminal: 
 
 `gunicorn app:app`
 
