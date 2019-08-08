@@ -8,7 +8,9 @@ app = Flask(__name__)
 
 @app.route('/recommend')
 def recommends():
-    r = model.recommend()
+    r = model.recommend(users=[1, 2, 3, 4, 5], k=3)
+    r.print_rows(num_rows=15)
+    print(r)
     return jsonify(list(r))
 
 
